@@ -1,0 +1,83 @@
+{
+"drivesafe": {"sounds": ["custom/cat/customsound/drivesafe"]},
+"eas.boom.ding.ding.ding": {"sounds": ["custom/cat/eas/oh_shit"]},
+"eas.shutdown": {"sounds": ["custom/cat/eas/shit_we_gonna_cease"], "replace": true, "preload": true},
+"eight": {"sounds": ["custom/cat/customsound/eight"]},
+"entity.player.secret.find": {"sounds": ["custom/cat/customsound/himitsu"]},
+"entity.player.task.start": {"sounds": ["custom/cat/task/start"], "replace": true, "preload": true},
+"entity.player.task.fail": {"sounds": ["custom/cat/task/bruh"], "replace": true, "preload": true},
+"entity.player.task.complete": {"sounds": ["custom/cat/task/end"], "replace": true, "preload": true},
+
+"item.clock.chime": {"sounds": ["custom/cat/customsound/westminster"]},
+"metro.venture.wait": {"sounds": ["custom/cat/metro/venture-wait"]},
+"metro.venture.stop": {"sounds": ["custom/cat/metro/venture-stop"]},
+"metro.venture.go": {"sounds": ["custom/cat/metro/venture-go"]},
+"metro.warn": {"sounds": ["custom/cat/metro/attention"]},
+"metro.cross": {"sounds": ["custom/cat/metro/alarm"]},
+"metro.crossing": {"sounds": ["custom/cat/metro/crossalarm"]},
+"metro.close": {"sounds": ["custom/cat/metro/doorcls"]},
+"metro.shuttle.close": {"sounds": ["custom/cat/metro/shuttleget"]},
+"metro.commuter.close": {"sounds": ["custom/cat/metro/commuterclose"]},
+"metro.longclose": {"sounds": ["custom/cat/metro/verydoorcls"]},
+"pb5.go.beep": {"sounds": ["custom/cat/customsound/pb5_start"]},
+"pb5.go.loop": {"sounds": ["custom/cat/customsound/pb5_go"]},
+"pb5.wait": {"sounds": ["custom/cat/customsound/pb5_wait"]},
+
+"no.the.white.phone": {"sounds": ["custom/cat/customsound/whitephone"]},
+"upsetness.loud.minedonalds.what.are.they.saying": {"sounds": ["custom/cat/customsound/mcdonalds"]},
+"entity.player.loldied": {"sounds": ["damage/deadzo"]},
+"whoopsie.doodles": {"sounds": ["custom/cat/customsound/good_job_you_die"]},
+"ticket": {"sounds": ["custom/cat/customsound/plsticket"]},
+"eas.fire": {"sounds": ["custom/cat/eas/firealarm"]},
+"eas.kaji": {"sounds": ["custom/cat/eas/kajidesu"]},
+"eas.alarmings": {"sounds": ["custom/cat/eas/notifiy"]},
+
+"block.bell.use": {
+    "sounds": [
+      {
+        "name": "block/bell/bell_use01",
+        "volume": 12,
+        "pitch": 0.95
+      },
+      {
+        "name": "block/bell/bell_use02",
+        "volume": 12,
+        "pitch": 0.95
+      },
+      {
+        "name": "block/bell/bell_use01",
+        "volume": 12,
+        "pitch": 0.93
+      },
+      {
+        "name": "block/bell/bell_use02",
+        "volume": 12,
+        "pitch": 0.93
+      },
+      {
+        "name": "block/bell/bell_use01",
+        "volume": 12,
+        "pitch": 0.97
+      },
+      {
+        "name": "block/bell/bell_use02",
+        "volume": 12,
+        "pitch": 0.97
+      }
+    ],
+    "subtitle": "subtitles.block.bell.use"
+  },
+  "weather.rain": {
+    "sounds": [
+      "ambient/weather/rain1",
+      "ambient/weather/rain2",
+      "ambient/weather/rain3",
+      "ambient/weather/rain4",
+      "ambient/weather/rain5",
+      "ambient/weather/rain6",
+      "ambient/weather/rain7",
+      "ambient/weather/rain8"
+    ],
+    "subtitle": "subtitles.weather.rain"
+  }
+}
