@@ -79,5 +79,84 @@
       "ambient/weather/rain8"
     ],
     "subtitle": "subtitles.weather.rain"
+  },
+  "music.creative": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "music.game",
+        "type": "event"
+      },
+      {
+        "name": "music/denmark",
+        "stream": true,
+	"preload": true
+      },
+      {
+        "name": "music/norway",
+        "stream": true,
+	"preload": true
+      },
+      {
+        "name": "music/vermont",
+        "stream": true,
+	"preload": true
+      },
+      {
+        "name": "music/door",
+        "stream": true,
+	"preload": true
+      }
+    ]
+  },
+  "music.game": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "music/denmark",
+        "stream": true,
+	"preload": true
+      },
+      {
+        "name": "music/norway",
+        "stream": true,
+	"preload": true
+      },
+      {
+        "name": "music/vermont",
+        "stream": true,
+	"preload": true
+      },
+      {
+        "name": "music/door",
+        "stream": true,
+	"preload": true
+      }
+    ]
+  },
+  "music.menu": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "music/denmark",
+        "stream": true,
+	"preload": true
+      },
+      {
+        "name": "music/norway",
+        "stream": true,
+	"preload": true
+      },
+      {
+        "name": "music/vermont",
+        "stream": true,
+	"preload": true
+      },
+      {
+        "name": "music/door",
+        "stream": true,
+	"preload": true
+      }
+    ]
   }
 }
