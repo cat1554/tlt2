@@ -32,6 +32,7 @@
 "eas.kaji": {"sounds": ["custom/cat/eas/kajidesu"]},
 "eas.alarmings": {"sounds": ["custom/cat/eas/notifiy"]},
 "pfft": {"sounds": ["custom/blah"]},
+"serv.serious": {"sounds": ["custom/serious"]},
 
 "cf.blah": {"sounds": ["custom/blah"]},
 
