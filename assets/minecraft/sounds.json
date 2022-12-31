@@ -31,9 +31,8 @@
 "eas.fire": {"sounds": ["custom/cat/eas/firealarm"]},
 "eas.kaji": {"sounds": ["custom/cat/eas/kajidesu"]},
 "eas.alarmings": {"sounds": ["custom/cat/eas/notifiy"]},
-"pfft": {"sounds": ["custom/cat/blah"]},
 
-"cf.blah": {"sounds": ["custom/cat/blah"]},
+"cf.blah": {"sounds": ["custom/blah"]},
 
 "block.bell.use": {
     "sounds": [
