@@ -13,6 +13,7 @@
 "metro.venture.stop": {"sounds": ["custom/cat/metro/venture-stop"]},
 "metro.venture.go": {"sounds": ["custom/cat/metro/venture-go"]},
 "metro.warn": {"sounds": ["custom/cat/metro/attention"]},
+"metro.warn2": {"sounds": ["metro/warn2"]},
 "metro.cross": {"sounds": ["custom/cat/metro/alarm"]},
 "metro.crossing": {"sounds": ["custom/cat/metro/crossalarm"]},
 "metro.close": {"sounds": ["custom/cat/metro/doorcls"]},
