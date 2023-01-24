@@ -1,14 +1,23 @@
 {
 "drivesafe": {"sounds": ["custom/cat/customsound/drivesafe"]},
-"eas.boom.ding.ding.ding": {"sounds": ["custom/cat/eas/oh_shit"]},
+"eas.boom.ding.ding.ding": {"sounds": ["custom/cat/eas/oh_shit"],
+    "subtitle": "subtitles.custom.boom.ding.ding.ding"},
 "eas.shutdown": {"sounds": ["custom/cat/eas/shit_we_gonna_cease"], "replace": true, "preload": true},
-"eight": {"sounds": ["custom/cat/customsound/eight"]},
-"entity.player.secret.find": {"sounds": ["custom/cat/customsound/himitsu"]},
-"entity.player.task.start": {"sounds": ["custom/cat/task/start"], "replace": true, "preload": true},
-"entity.player.task.fail": {"sounds": ["custom/cat/task/bruh"], "replace": true, "preload": true},
-"entity.player.task.complete": {"sounds": ["custom/cat/task/end"], "replace": true, "preload": true},
+"eight": {"sounds": ["custom/cat/customsound/eight"],
+    "subtitle": "subtitles.custom.eight"},
+"entity.player.secret.find": {"sounds": ["custom/cat/customsound/himitsu"],
+    "subtitle": "subtitles.custom.secretfound"},
+"entity.player.task.start": {"sounds": ["custom/dynajob/start"], "replace": true, "preload": true,
+    "subtitle": "subtitles.custom.task.start"},
+"entity.player.task.progress": {"sounds": ["custom/dynajob/start"], "replace": true, "preload": true,
+    "subtitle": "subtitles.custom.task.prog"},
+"entity.player.task.fail": {"sounds": ["custom/dynajob/bruh"], "replace": true, "preload": true,
+    "subtitle": "subtitles.custom.task.fail"},
+"entity.player.task.complete": {"sounds": ["custom/dynajob/end"], "replace": true, "preload": true,
+    "subtitle": "subtitles.custom.task.comp"},
 
-"item.clock.chime": {"sounds": ["custom/cat/customsound/westminster"]},
+"item.clock.chime": {"sounds": ["custom/cat/customsound/westminster"],
+    "subtitle": "subtitles.custom.clockchime"},
 "metro.venture.wait": {"sounds": ["custom/cat/metro/venture-wait"]},
 "metro.venture.stop": {"sounds": ["custom/cat/metro/venture-stop"]},
 "metro.venture.go": {"sounds": ["custom/cat/metro/venture-go"]},
@@ -22,20 +31,28 @@
 "metro.longclose": {"sounds": ["custom/cat/metro/verydoorcls"]},
 "pb5.go.beep": {"sounds": ["custom/cat/customsound/pb5_start"]},
 "pb5.go.loop": {"sounds": ["custom/cat/customsound/pb5_go"]},
-"pb5.wait": {"sounds": ["custom/cat/customsound/pb5_wait"]},
+"pb5.wait": {"sounds": ["custom/cat/customsound/pb5_wait"],
+    "subtitle": "subtitles.custom.pb5.wait"},
 
-"no.the.white.phone": {"sounds": ["custom/cat/customsound/whitephone"]},
-"upsetness.loud.minedonalds.what.are.they.saying": {"sounds": ["custom/cat/customsound/mcdonalds"]},
+"no.the.white.phone": {"sounds": ["custom/cat/customsound/whitephone"],
+    "subtitle": "subtitles.custom.whitephone"},
+"upsetness.loud.minedonalds.what.are.they.saying": {"sounds": ["custom/cat/customsound/mcdonalds"],
+    "subtitle": "subtitles.custom.minedonalds"},
 "entity.player.loldied": {"sounds": ["damage/deadzo"]},
-"whoopsie.doodles": {"sounds": ["custom/cat/customsound/good_job_you_die"]},
+"whoopsie.doodles": {"sounds": ["custom/cat/customsound/good_job_you_die"],
+    "subtitle": "subtitles.custom.whoopsie"},
 "ticket": {"sounds": ["custom/cat/customsound/plsticket"]},
 "eas.fire": {"sounds": ["custom/cat/eas/firealarm"]},
 "eas.kaji": {"sounds": ["custom/cat/eas/kajidesu"]},
 "eas.alarmings": {"sounds": ["custom/cat/eas/notifiy"]},
-"pfft": {"sounds": ["custom/blah"]},
-"serv.serious": {"sounds": ["custom/serious"]},
+"pfft": {"sounds": ["custom/misc/blah"],
+    "subtitle": "subtitles.custom.blah"},
+"serv.serious": {"sounds": ["custom/misc/serious"]},
+"block.bell.door": {"sounds": ["custom/misc/doorbell"],
+    "subtitle": "subtitles.custom.doorbell", "replace": true, "preload": true},
 
-"cf.blah": {"sounds": ["custom/blah"]},
+"cf.blah": {"sounds": ["custom/blah"],
+    "subtitle": "subtitles.custom.blah"},
 
 "block.bell.use": {
     "sounds": [
@@ -72,18 +89,53 @@
     ],
     "subtitle": "subtitles.block.bell.use"
   },
-  "weather.rain": {
+  "entity.generic.death": {
     "sounds": [
-      "ambient/weather/rain1",
-      "ambient/weather/rain2",
-      "ambient/weather/rain3",
-      "ambient/weather/rain4",
-      "ambient/weather/rain5",
-      "ambient/weather/rain6",
-      "ambient/weather/rain7",
-      "ambient/weather/rain8"
+      "damage/deadzo",
+      "damage/deadzo",
+      "damage/deadzo"
     ],
-    "subtitle": "subtitles.weather.rain"
+    "subtitle": "subtitles.entity.generic.death"
+  },
+  "entity.generic.hurt": {
+    "sounds": [
+      "damage/hit1",
+      "damage/hit2",
+      "damage/hit3"
+    ],
+    "subtitle": "subtitles.entity.generic.hurt"
+  },
+  "entity.hostile.death": {
+    "sounds": [
+      "damage/hit1",
+      "damage/hit2",
+      "damage/hit3"
+    ],
+    "subtitle": "subtitles.entity.generic.death"
+  },
+  "entity.hostile.hurt": {
+    "sounds": [
+      "damage/hit1",
+      "damage/hit2",
+      "damage/hit3"
+    ],
+    "subtitle": "subtitles.entity.generic.hurt"
+  },
+  "entity.player.death": {
+    "sounds": [
+      "damage/hit1",
+      "damage/hit2",
+      "damage/hit3"
+    ],
+    "subtitle": "subtitles.entity.player.death"
+  },
+  "entity.player.hurt": {
+    "sounds": [
+      "damage/hit1",
+      "damage/hit2",
+      "damage/hit3"
+    ],
+    "subtitle": "subtitles.entity.player.hurt"
   },
   "music.creative": {
     "replace": true,
@@ -163,5 +215,18 @@
 	"preload": true
       }
     ]
+  },
+  "weather.rain": {
+    "sounds": [
+      "ambient/weather/rain1",
+      "ambient/weather/rain2",
+      "ambient/weather/rain3",
+      "ambient/weather/rain4",
+      "ambient/weather/rain5",
+      "ambient/weather/rain6",
+      "ambient/weather/rain7",
+      "ambient/weather/rain8"
+    ],
+    "subtitle": "subtitles.weather.rain"
   }
 }
