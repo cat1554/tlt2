@@ -1,7 +1,7 @@
 {
 	"credit": "Made with Blockbench",
-	"texture": "block/sign.png",
-	"textureSize": [64, 32],
+	"texture": "block/texture",
+	"textureSize": [128, 128],
 	"models": [
 		{
 			"part": "board",
@@ -9,7 +9,8 @@
 			"invertAxis": "xy",
 			"translate": [0, -12, 0],
 			"boxes": [
-				{"coordinates": [-23, 14, -1, 46, 12, 2], "textureOffset": [0, 0]}
+				{"coordinates": [-23, 14, -1, 46, 12, 2], "textureOffset": [0, 0]},
+				{"coordinates": [-12, 14, -1, 24, 12, 2], "textureOffset": [0, 14]}
 			]
 		},
 		{
@@ -18,8 +19,9 @@
 			"invertAxis": "xy",
 			"translate": [0, -12, 0],
 			"boxes": [
-				{"coordinates": [23, 0, -1, 2, 26, 2], "textureOffset": [0, 14]},
-				{"coordinates": [-25, 0, -1, 2, 26, 2], "textureOffset": [0, 14]}
+				{"coordinates": [23, 0, -1, 2, 26, 2], "textureOffset": [0, 28]},
+				{"coordinates": [-25, 0, -1, 2, 26, 2], "textureOffset": [0, 28]},
+				{"coordinates": [-1, 0, -1, 2, 14, 2], "textureOffset": [8, 28]}
 			]
 		}
 	]
