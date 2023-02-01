@@ -1,0 +1,10 @@
+{
+  "textures": {
+    "particle": "minecraft:block/dark_oak_planks",
+    "main": "minecraft:entity/signs/dark_oak",
+    "sign": "minecraft:misc/nothing"
+  },
+	"overrides": [
+		{ "predicate": { "custom_model_data": "purple"}, "model": "block/station_sign/purple"}
+	]
+}

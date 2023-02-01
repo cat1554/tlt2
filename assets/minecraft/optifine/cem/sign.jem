@@ -1,7 +1,7 @@
 {
 	"credit": "Made with Blockbench",
-	"texture": "block/texture",
-	"textureSize": [128, 128],
+	"texture": "./sign",
+	"textureSize": [32, 32],
 	"models": [
 		{
 			"part": "board",

@@ -1,0 +1,7 @@
+{
+  "textures": {
+    "particle": "minecraft:block/dark_oak_planks",
+    "main": "minecraft:misc/nothing",
+    "sign": "minecraft:entity/signs/train/purple"
+  }
+}
