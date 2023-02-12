@@ -5,6 +5,6 @@
     "sign": "minecraft:misc/nothing"
   },
 	"overrides": [
-		{ "predicate": { "custom_model_data": "purple"}, "model": "block/station_sign/purple"}
+		{ "predicate": { "custom_model_data": "1"}, "model": "block/station_sign/purple"}
 	]
 }
