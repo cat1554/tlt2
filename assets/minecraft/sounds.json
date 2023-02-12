@@ -51,7 +51,7 @@
 "block.bell.door": {"sounds": ["custom/misc/doorbell"],
     "subtitle": "subtitles.custom.doorbell", "replace": true, "preload": true},
 
-"cf.blah": {"sounds": ["custom/blah"],
+"cf.blah": {"sounds": ["custom/misc/blah"],
     "subtitle": "subtitles.custom.blah"},
 
 "block.bell.use": {
@@ -196,21 +196,6 @@
     "sounds": [
       {
         "name": "music/denmark",
-        "stream": true,
-	"preload": true
-      },
-      {
-        "name": "music/norway",
-        "stream": true,
-	"preload": true
-      },
-      {
-        "name": "music/vermont",
-        "stream": true,
-	"preload": true
-      },
-      {
-        "name": "music/door",
         "stream": true,
 	"preload": true
       }
