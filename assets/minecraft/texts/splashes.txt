@@ -17,8 +17,8 @@ Can't connect to server.
 Spigot+!
 TotallyLegitSplashText
 You must eat the nuggies
-Line 21 holds captions!
 SERVER IS PFFT
+Line 21 holds captions!
 Never up to date!
 Hosted from Chicago, Illinois!
 Powered by a Mac Pro!
