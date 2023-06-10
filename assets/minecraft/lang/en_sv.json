@@ -1,4 +1,8 @@
 {
+    "language.code": "en_sv",
+    "language.name": "English",
+    "language.region": "Server",
+
     "addServer.add": "Done",
     "addServer.enterIp": "Server address",
     "addServer.enterName": "Server name",
@@ -3609,9 +3613,6 @@
     "lanServer.scanning": "Scanning for haters on your local network",
     "lanServer.start": "Start LAN",
     "lanServer.title": "LAN world",
-    "language.code": "en_us",
-    "language.name": "English",
-    "language.region": "Server",
     "lectern.take_book": "Take",
     "menu.convertingLevel": "Converting world",
     "menu.disconnect": "Get",
